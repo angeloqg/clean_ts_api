@@ -1,0 +1,19 @@
+{
+    // extendemos as congiguração do es-lint a partir da biblioteca informada
+    "extends": "standard-with-typescript",
+    // Informando ao eslint para utilizar as configurações do typescript
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/comma-spacing": "off",
+        "@typescript-eslint/return-await": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/no-misused-promises": "off",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/camelcase": "off",
+        "import/export": "off"
+    }
+}
