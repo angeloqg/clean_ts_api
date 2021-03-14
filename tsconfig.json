@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+		
+		// Informa aonde será gerado os arquivos javascripts publicados
+		"outDir": "./dist", 
+		
+		// Informa qual módulo que da suporte a importação e exportação no Node Js
+		"module": "commonjs",
+		
+		// Informa a versão de suporte ao Ecma Script
+		"target": "ES2019",
+		
+		// Realiza conversão de interna no formato de importação do 'commonjs'
+		"esModuleInterop": true,
+		
+		// Permite o uso de arquivo de configuração javascript, além do json
+		"allowJs": true
+    }
+}
