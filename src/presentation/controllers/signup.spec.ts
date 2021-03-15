@@ -1,4 +1,4 @@
-import { MissingParamError } from './../error/missing-param-erros'
+import { MissingParamError } from '../errors/missing-param-erros'
 import { SignUpController } from './signup'
 
 describe('SignUpController', () => {
