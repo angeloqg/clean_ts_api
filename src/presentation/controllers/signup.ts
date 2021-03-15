@@ -1,7 +1,8 @@
+import { Controller } from './../helpers/controller'
 import { MissingParamError } from '../errors/missing-param-erros'
 import { badRequest } from '../helpers/http-helper'
 import { HttpRequest, HttpResponse } from './../protocolos/http'
-export class SignUpController {
+export class SignUpController implements Controller {
   handle (httpRequest: HttpRequest): HttpResponse {
     if (!httpRequest.body.name) {
       return badRequest(new MissingParamError('name'))
