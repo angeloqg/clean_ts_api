@@ -10,7 +10,7 @@ interface SutType {
 
 // Factory
 const makeSut = (): SutType => {
-  // Test Duble
+  // Test Duble (MOCK)
   class EmailValidatorStub implements EmailValidator {
     isValid (email: string): boolean {
       return true
