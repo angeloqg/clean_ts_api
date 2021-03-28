@@ -4,7 +4,7 @@
 module.exports = {
 
   roots: ['<rootDir>/src'],
-  collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!**/protocols/**', '!**/signup_protocols.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts', '!**/protocols/**', '!**/signup_protocols.ts', '!**/db-add-account-protocols.ts'],
 
   coverageDirectory: 'coverage',
   testEnvironment: 'node',
