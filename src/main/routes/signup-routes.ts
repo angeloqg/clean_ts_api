@@ -1,5 +1,5 @@
 export default (router): void => {
-  router.post('/signup', (res, req) => {
+  router.post('/signup', (req, res) => {
     res.json({ ok: 'ok' })
   })
 }
