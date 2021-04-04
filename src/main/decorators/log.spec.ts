@@ -21,6 +21,7 @@ const makeController = (): Controller => {
   }
   return new ControllerStub()
 }
+
 const makeSut = (): SutTypes => {
   const controllerStub = makeController()
   const sut = new LogControllerDecorator(controllerStub)
